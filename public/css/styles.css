@@ -1,0 +1,99 @@
+/*****************************STYLESHEET FILE ***********************/
+ body {
+  background-color: #8F99D4;
+}
+
+.form{
+	text-align: center;
+	font-family:"Comic Sans MS", cursive, sans-serif;
+	color: #EFE7D2;
+}
+
+/*******************************ONLINE USERS ***********************/
+ #onlineBox{
+	position:fixed;
+	background:#4C3F9E;
+	border:2px solid black;
+	margin-bottom:20px;
+	margin-left:1020px;
+	}
+	
+.clear{
+	clear:both;
+	}
+	
+ #players { 
+ list-style-type: none; 
+ margin: 0; 
+ padding: 0; 
+ color: #DBF9C3;
+ }
+ 
+ #players li{ 
+ padding: 5px 10px; 
+ }
+
+/****************P AND H Tags ***********************************/
+h1{
+	text-align: center;
+	font-family:"Comic Sans MS", cursive, sans-serif;
+	color: #EFE7D2;
+}
+
+h2{
+	text-align: center;
+	font-family:"Comic Sans MS", cursive, sans-serif;
+	color: #B3D9D4;
+}
+
+h3{
+	text-align: center;
+	font-family:"Comic Sans MS", cursive, sans-serif;
+	color: #B3D9D4;
+}
+ 
+ p{
+	text-align: center;
+	font-family:"Comic Sans MS", cursive, sans-serif;
+	color: #F69C5E;	
+ }
+ 
+p.result{
+	text-align: center;
+	font-family:"Comic Sans MS", cursive, sans-serif;
+	color: #F3C711;
+}
+
+p.trials{
+	text-align: center;
+	font-family:"Comic Sans MS", cursive, sans-serif;
+	color: #F3C711;
+}
+
+/************************BUTTONS*************************************/
+#quit_btn{
+  position:absolute;
+  transition: .5s ease;
+  top: 5%;
+  left: 87%;
+  background-color: #8ACCAA; 
+  border-radius: 8px;
+  color: white;
+  padding: 5px 8px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 13px;
+}
+
+#login_btn,#submitcolor {
+  background-color: #8ACCAA; 
+  border-radius: 8px;
+  color: white;
+  padding: 5px 8px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 13px;
+}
+

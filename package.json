@@ -1,0 +1,23 @@
+{
+  "name": "instinctgame",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reinasukraj4/instinctgame.git"
+  },
+  "author": "reina",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/reinasukraj4/instinctgame/issues"
+  },
+  "homepage": "https://github.com/reinasukraj4/instinctgame#readme",
+  "dependencies": {
+    "express": "^4.15.2",
+    "socket.io": "^2.2.0"
+  }
+}

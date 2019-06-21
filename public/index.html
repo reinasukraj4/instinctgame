@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+<title>Color picker</title>
+<link rel = "stylesheet" type = "text/css" href = "css/styles.css" />
+</head>
+ 
+<body>
+	<div>
+	<header>
+		<h1>Test your psychic abilities!</h1>
+		<h2>We have chosen a color and it is your task to use your "sense" and guess it.<h2>
+		<h3>Play with multiple friends and the one who gets the color first, has more psychic power!<h3>
+		
+		<div id="onlineBox">
+			<h2>Online players</h2>
+			<ul id="players"></ul><br class="clear"/>
+		</div>
+	</header>
+	
+<!-- Login GUI -->
+	<main>
+		<section id="login">
+			<p>
+				<span>Please sign in to play with other players...</span>
+				<input type="text" id="login_txt" autocomplete="off"/>
+				<button id="login_btn">Sign in</button>
+			</p> 
+		</section>
+		
+		 <form action="">
+		   <button id="quit_btn">Leave Game</button>
+		</form>
+		
+<div> 
+
+<!-- Game GUI -->
+<div>
+	<h1>Guess the color</h1> 
+
+	<p>We have selected a color between pink, blue, white, green, yellow. 
+		Try your instinct and pick a color.</p> 
+
+
+<div class="form"> 
+	<label for="colorPick">Color: </label> 
+	<input type = "text" id = "colorPick" class = "colorPick"> 
+	<input type = "submit" id = "submitcolor" value = "Pick" > 
+	
+	<p class= "result" id="result"></p>
+	<p class= "trials" id="trials"></p>
+</div> 
+<div>
+	
+</div>	
+	</main>	
+	</div> 
+	
+	<!--INCLUDE LIBRARIES -->
+		<script src="https://code.jquery.com/jquery-1.11.1.js"></script>
+		<script src="/socket.io/socket.io.js"></script>
+		<script src="js/game.js"></script>
+		
+
+
+</body> 
+</html>
